@@ -1,0 +1,31 @@
+﻿numpy.genfrometext('文件名'，delimiter='以什么为分割'，dtype='')skip_header
+numpy array里面的元素必须相同
+list == 和array不一样
+astype 转换类型
+矩阵的属性 ndim shape dtype size
+random(-1,1)
+floor 向下取整
+ravel返回的是视图 flatten返回的是拷贝
+-1表示可以确定了但自己没去算
+tile操作
+read_csv .columns属性 sort_value方法ascend属性 isnull方法
+pivot_table(index ='false',value='survived',aggfunc=np.mean)默认求均值
+apply函数 axis : {0 or ‘index’, 1 or ‘columns’}, default 0
+
+Axis along which the function is applied:
+
+0 or ‘index’: apply function to each column.
+1 or ‘columns’: apply function to each row.
+
+dataframe->series->ndarray  Series(ndarray,index=ndarray2)
+pd.to_datetime
+fig=plt.figurt(figsize=()
+ax = fig.add_subplot(2,2,1)
+plt.legend(loc='best')需要画图时指定label
+ax.scatteer()
+ax.hist()条形图分成多少块
+
+sns.barplot(x='sex',y='survived',hue='class',data=titanic)
+sns.pointplot(x='sex',y='survived',hue='class',data=titanic,palette=('male':'g','female':'m'),makers='','o',linestyles=['-','--'])33
+
+heatmap36
